@@ -1,4 +1,0 @@
-(executable
- (name main)
- (public_name llvmtest)
- (libraries llvm))

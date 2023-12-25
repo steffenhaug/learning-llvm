@@ -1,0 +1,4 @@
+result/
+.vscode/
+*.opam
+_build

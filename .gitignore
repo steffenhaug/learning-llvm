@@ -1,2 +1,8 @@
 result/
 .vscode/
+test.c
+*.ll
+*.s
+*.o
+_build/
+build/

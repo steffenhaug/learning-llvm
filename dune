@@ -1,0 +1,18 @@
+(executable
+ (name main)
+ (public_name llvmtest)
+ (libraries
+  fmt
+  ; LLVM + Components
+  llvm
+  llvm.executionengine
+  llvm.analysis
+  ; FFI
+  ctypes.foreign)
+ ; Link the runtime
+ (foreign_stubs (language c) (names rt)))
+
+(env
+ (_
+  (flags
+   (:standard -warn-error -A))))
